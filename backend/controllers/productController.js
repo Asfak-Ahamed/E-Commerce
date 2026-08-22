@@ -14,6 +14,7 @@ exports.getProducts = async (req, res, next) => {
 }
 
 //Get Single Product API - /api/v1/product/:id
+//get product
 exports.getSingleProduct = async (req, res, next) => {
     try {
         const product = await ProductModel.findById(req.params.id);

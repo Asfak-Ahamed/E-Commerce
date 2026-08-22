@@ -8,7 +8,7 @@ exports.createOrder = async (req, res, next) => {
     const status = 'pending';
     const order = await orderModel.create({cartItems, amount, status})
 
-    // Updating product stock
+    // Updating product stocks
     cartItems.forEach(async (item)=> {
         const product = await productModel.findById(item.product._id);
         product.stock = product.stock - item.qty;
