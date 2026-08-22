@@ -3,5 +3,8 @@ export default function Footer() {
                 <p className="text-center text-white mt-1 ">
                     JVLcart - 2023-2024, All Rights Reserved
                 </p>
+                <p className="text-center text-white mt-1 ">
+                   
+                </p>
             </footer>
 }
