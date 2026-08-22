@@ -23,6 +23,7 @@ function App() {
                 <Route path="/search"  element={ <Home />}/>
                 <Route path="/product/:id"  element={ <ProductDetail cartItems={cartItems}  setCartItems={setCartItems}  />}/>
                 <Route path="/cart"  element={ <Cart cartItems={cartItems}  setCartItems={setCartItems}  />}/>
+                 <Route path="/carts"  element={ <Cart cartItems={cartItems}  setCartItems={setCartItems}  />}/>
             </Routes>
           </div>
         </Router>
