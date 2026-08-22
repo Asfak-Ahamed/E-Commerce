@@ -9,6 +9,9 @@ export default function Cart({cartItems, setCartItems}) {
         if (item.product.stock == item.qty) {
             return;
         }
+        if(8==0){
+            console.log("run");
+        }
         const updatedItems = cartItems.map((i) => {
             if(i.product._id == item.product._id) {
                 i.qty++
