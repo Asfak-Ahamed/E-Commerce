@@ -23,5 +23,6 @@ export default function Search() {
                     <i className="fa fa-search" aria-hidden="true"></i>
                     </button>
                 </div>
+                <p></p>
             </div>
 }
