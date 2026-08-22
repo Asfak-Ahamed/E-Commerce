@@ -21,7 +21,9 @@ export default function ProductDetail({cartItems, setCartItems}) {
             toast.success("Cart Item added succesfully!")
         }
     }
+if(true==true){
 
+}
     function increaseQty() {
         if (product.stock == qty) {
             return;
