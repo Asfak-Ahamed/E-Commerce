@@ -17,7 +17,6 @@ app.use('/api/v1/',products);
 app.use('/api/v1/',orders)
 
 
-app.listen(process.env.PORT,()=>{
+app.listen(process.env.PORT, '0.0.0.0', () => {
     console.log(`server listening to the port ${process.env.PORT} in ${process.env.NODE_ENV}`)
-} 
-)
+})
